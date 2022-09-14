@@ -91,6 +91,11 @@ svg {
 
 @media (max-width: 480px) {
   .container {
+    max-width: 100%
     flex-direction: column;
+  }
+
+  .product-image {
+    border-radius: 10px 10px 0 0;
   }
 }
